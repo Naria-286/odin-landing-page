@@ -89,16 +89,18 @@ a {
     font-weight: 900;
     font-size: 36px;
 }
+
 .subtext {
     font-size: 16px;
     color: #e5e7eb;
     margin-bottom: .8em;
 }
-.sign-up-button {
+
+.sign-up {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 7px 17px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +122,6 @@ a {
     font-weight: bold;
     margin: 25px;
 }
-
 /* conatiner for nested .card container  */
 .wallet {
     flex: 1;
@@ -147,6 +148,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 .info {
     max-width: 150px;
     color: #77797d;
@@ -161,26 +163,29 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 15px;
 }
+
 .quote-container {
-    max-width: 70vw;
+    max-width: 650px;
     /* enables 'author' to align to end  */
     display: flex;
     flex-direction: column;
 }
+
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #4d545f;
+    margin-bottom: 10px;
 }
+
 .author {
     font-size: 22px;
     font-weight: bold;
     color: #2a3546;
 
-    margin-right: 35px;
+    margin-right: 25px;
     align-self: flex-end;
 }
 
@@ -189,26 +194,33 @@ a {
 .background-cta {
     background-color: #b0aadf;
     flex: auto;
+    padding: 0px 350px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .modal {
     background-color: #3f8ae6;
-    width: 400px;
+    color: white;
     height: 100px;
+    flex: 1;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 55px;
     gap: 24px;
 }
+
 .cta-header {
     font-size: 20px;
+    font-weight: bold;
 }
-.cta-subheader {
-    color: wheat;
+
+.cta {
+    border: white solid 2px;
 }
 
 .footer {
