@@ -110,16 +110,15 @@ a {
 
 /* CARDS */
 .background-cards {
-    background-color: #c9dfaa;
+    background-color: white;
     text-align: center;
     flex: auto;
-
-    /* display: flex; */
 }
 
 .cards-header {
-    font-size: 24px;
-    margin: 15px 0px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 25px;
 }
 
 /* conatiner for nested .card container  */
@@ -130,7 +129,6 @@ a {
     justify-content: center;
     gap: 52px;
 }
-
 /* centers the div over text */
 .card {
     display: flex;
@@ -142,17 +140,22 @@ a {
     height: 150px;
     width: 150px;
 
-    border: blue solid 4px;
+    border: #3882F6 solid 4px;
     border-radius: 15px;
+    /* temp center placeholder text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .info {
     max-width: 150px;
+    color: #77797d;
 }
 
 
 /* QUOTE  */
 .background-quote {
-    background-color: antiquewhite;
+    background-color: #e5e7eb;
     flex: auto;
     /* aligns container around quote/author */
     display: flex;
@@ -167,12 +170,18 @@ a {
     flex-direction: column;
 }
 .quote {
-    max-width: 50vw;
-    font-size: 20px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #4d545f;
 }
 .author {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a3546;
+
+    margin-right: 35px;
     align-self: flex-end;
-    font-size: 15px;
 }
 
 
