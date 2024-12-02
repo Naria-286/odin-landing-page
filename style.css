@@ -48,7 +48,7 @@ a {
 
 
 /* Hero */
-.container-hero { 
+.background-hero { 
     background-color: #e5cdcd;
     flex: auto;
 
@@ -71,7 +71,7 @@ a {
 
 
 /* Cards */
-.container-cards {
+.background-cards {
     background-color: #c9dfaa;
     text-align: center;
     flex: auto;
@@ -112,13 +112,34 @@ a {
 }
 
 
-
-
-.container-quote {
+/* QUOTE  */
+.background-quote {
     background-color: antiquewhite;
     flex: auto;
+    /* aligns container around quote/author */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 15px;
 }
-.container-cta {
+.quote-container {
+    max-width: 70vw;
+    /* enables 'author' to align to end  */
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    max-width: 50vw;
+    font-size: 20px;
+}
+.author {
+    align-self: flex-end;
+    font-size: 15px;
+}
+
+
+
+.background-cta {
     background-color: #b0aadf;
     flex: auto
 }
