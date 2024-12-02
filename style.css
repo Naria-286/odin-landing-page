@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 150vh;
     font-family: Roboto, Arial, Sans-serif;
     font-size: 15px;
 
@@ -22,52 +22,90 @@ body {
 }
 /* All Header stuff */
 .header {
+    background-color: #1F2937;
+    color: white;
+    font-weight: bold;
     display: flex;
+    align-items: center;
+    padding: 15px;
 }
-/* 
-.logo {
-    margin-right: auto;
 
-    font: 24px;
-    color: #f9faf8;
+.logo {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin-right: auto;
+    /* font: 24px;
+    color: #f9faf8; */
 }
 
 ul {
     list-style: none;
+    /* flattens ul  */
     display: flex;
-
     gap: 16px;
 }
 
 a {
     text-decoration: none;
     font: 18px;
-    color: #e5e7eb;
-} */
+    color: #dee3ec;
+} 
 
 
 
 /* HERO */
 .background-hero { 
-    background-color: #e5cdcd;
+    background-color: #1F2937;
     flex: auto;
-
+    padding-bottom: 50px;
+    /* center the content container  */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 35px; */
-}
-.intro {
-    height: 150px;
-    width: 350px;
-    background-color: white;
-}
-.image {
-    height: 150px;
-    width: 350px;
-    background-color: rgb(167, 112, 112);
 }
 
+.hero-container {
+    display: flex;
+    width: 900px;
+    height: 200px;
+}
+
+.intro {
+    flex: 1;
+    padding: 15px;
+}
+.image {
+    flex: 1;
+    border: black solid 1px;
+    background-color: gray;
+    /* temp: center placeholder text  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 36px;
+}
+.subtext {
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-bottom: .8em;
+}
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* there's a weird border without this thing */
+    border: #3882F6 solid 0px;
+    border-radius: .3em;
+}
 
 
 /* CARDS */
@@ -164,7 +202,11 @@ a {
     color: wheat;
 }
 
-/* .footer {
+.footer {
     background-color: #1F2937;
-    min-height: 10vhpx;
-} */ 
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
