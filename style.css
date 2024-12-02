@@ -5,27 +5,127 @@
 }
 
 body {
-    min-height: 100vh;
-    background-color: lightgreen;
+    height: 100vh;
+    font-family: Roboto, Arial, Sans-serif;
+    font-size: 15px;
 
     display: flex;
     flex-direction: column;
 }
 
+.content {
+    background-color: #f8f7f0;
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+/* All Header stuff */
 .header {
-    background-color: #1F2937;
-    height: 100px;
+    display: flex;
+}
+/* 
+.logo {
+    margin-right: auto;
+
+    font: 24px;
+    color: #f9faf8;
 }
 
-.body {
-    background-color: red;
-    flex-grow: 1;
+ul {
+    list-style: none;
+    display: flex;
+
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font: 18px;
+    color: #e5e7eb;
+} */
+
+
+
+/* Hero */
+.container-hero { 
+    background-color: #e5cdcd;
+    flex: auto;
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 35px; */
+}
+.intro {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+}
+.image {
+    height: 150px;
+    width: 350px;
+    background-color: rgb(167, 112, 112);
 }
 
-.footer {
-    background-color: #1F2937;
-    height: 75px;
+
+
+/* Cards */
+.container-cards {
+    background-color: #c9dfaa;
+    text-align: center;
+    flex: auto;
+
+    /* display: flex; */
 }
+
+.cards-header {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+/* conatiner for nested .card container  */
+.wallet {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+/* centers the div over text */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder-img {
+    height: 150px;
+    width: 150px;
+
+    border: blue solid 4px;
+    border-radius: 15px;
+}
+.info {
+    max-width: 150px;
+}
+
+
+
+
+.container-quote {
+    background-color: antiquewhite;
+    flex: auto;
+}
+.container-cta {
+    background-color: #b0aadf;
+    flex: auto
+}
+
+
+
+/* .footer {
+    background-color: #1F2937;
+    min-height: 10vhpx;
+} */ 
