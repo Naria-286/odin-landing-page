@@ -47,7 +47,7 @@ a {
 
 
 
-/* Hero */
+/* HERO */
 .background-hero { 
     background-color: #e5cdcd;
     flex: auto;
@@ -70,7 +70,7 @@ a {
 
 
 
-/* Cards */
+/* CARDS */
 .background-cards {
     background-color: #c9dfaa;
     text-align: center;
@@ -138,13 +138,31 @@ a {
 }
 
 
-
+/* CALL TO ACTION */
 .background-cta {
     background-color: #b0aadf;
-    flex: auto
+    flex: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.modal {
+    background-color: #3f8ae6;
+    width: 400px;
+    height: 100px;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.cta-header {
+    font-size: 20px;
+}
+.cta-subheader {
+    color: wheat;
+}
 
 /* .footer {
     background-color: #1F2937;
