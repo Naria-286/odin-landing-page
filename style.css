@@ -21,33 +21,31 @@ body {
     flex-direction: column;
 }
 /* All Header stuff */
-.header {
+nav {
     background-color: #1F2937;
     color: white;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 15px 25px;
 }
 
-.logo {
+nav .logo {
     color: #e5e7eb;
     font-size: 24px;
     margin-right: auto;
-    /* font: 24px;
-    color: #f9faf8; */
 }
 
-ul {
+nav ul {
     list-style: none;
     /* flattens ul  */
     display: flex;
     gap: 16px;
 }
 
-a {
+nav a {
     text-decoration: none;
-    font: 18px;
+    font: 22px;
     color: #dee3ec;
 } 
 
